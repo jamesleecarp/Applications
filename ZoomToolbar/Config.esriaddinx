@@ -1,0 +1,44 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ZoomToolbar</Name>
+  <AddInID>{59a5d06e-b5a1-4e67-b186-b1c5a4b8b3d7}</AddInID>
+  <Description>Zoom Toolbar</Description>
+  <Version>1.0</Version>
+  <Image>Images\ZoomToolbar.png</Image>
+  <Author>jcarpenter</Author>
+  <Company>James Carpenter</Company>
+  <Date>1/17/2017</Date>
+  <Targets>
+    <Target name="Desktop" version="10.4" />
+  </Targets>
+  <AddIn language="CLR" library="ZoomToolbar.dll" namespace="ZoomToolbar">
+    <ArcMap>
+      <Commands>
+        <Button id="James_Carpenter_ZoomToolbar_ZoomIn400" class="ZoomIn400" message="Add-in" caption="Zoom In 400%" tip="Zooms in by 400%" category="GEOG489_Lesson2_JLC" image="Images\ZoomIn400.png" />
+        <Button id="James_Carpenter_ZoomToolbar_ZoomIn200" class="ZoomIn200" message="Add-in" caption="Zoom In 200%" tip="Zooms in by 200%" category="GEOG489_Lesson2_JLC" image="Images\ZoomIn400.png" />
+        <Button id="James_Carpenter_ZoomToolbar_ZoomIn125" class="ZoomIn125" message="Add-in" caption="Zoom In 125%" tip="Zooms in by 125%" category="GEOG489_Lesson2_JLC" image="Images\ZoomIn400.png" />
+        <Button id="James_Carpenter_ZoomToolbar_ZoomOut125" class="ZoomOut125" message="Add-in" caption="Zoom Out 125%" tip="Zooms Out by 125%" category="GEOG489_Lesson2_JLC" image="Images\ZoomIn400.png" />
+        <Button id="James_Carpenter_ZoomToolbar_ZoomOut200" class="ZoomOut200" message="Add-in" caption="Zoom Out 200%" tip="Zooms Out by 200%" category="GEOG489_Lesson2_JLC" image="Images\ZoomIn400.png" />
+        <Button id="James_Carpenter_ZoomToolbar_ZoomOut400" class="ZoomOut400" message="Add-in" caption="Zoom Out 400%" tip="Zooms Out by 400%" category="GEOG489_Lesson2_JLC" image="Images\ZoomIn400.png" />
+      </Commands>
+      <Menus>
+        <Menu id="James_Carpenter_ZoomToolbar_Zoom_Menu" caption="Zoom Menu" isRootMenu="false">
+          <Items>
+            <Item refID="James_Carpenter_ZoomToolbar_ZoomIn400" />
+            <Button refID="James_Carpenter_ZoomToolbar_ZoomIn200" separator="true" />
+            <Item refID="James_Carpenter_ZoomToolbar_ZoomIn125" separator="true" />
+            <Button refID="James_Carpenter_ZoomToolbar_ZoomOut125" separator="true" />
+            <Button refID="James_Carpenter_ZoomToolbar_ZoomOut200" separator="true" />
+            <Button refID="James_Carpenter_ZoomToolbar_ZoomOut400" separator="true" />
+          </Items>
+        </Menu>
+      </Menus>
+      <Toolbars>
+        <Toolbar id="James_Carpenter_ZoomToolbar_Zoom" caption="Zoom" showInitially="true">
+          <Items>
+            <Menu refID="James_Carpenter_ZoomToolbar_Zoom_Menu" />
+          </Items>
+        </Toolbar>
+      </Toolbars>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
