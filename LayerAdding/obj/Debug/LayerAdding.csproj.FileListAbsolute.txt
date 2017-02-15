@@ -1,0 +1,6 @@
+C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson3\LayerAdding\LayerAdding\bin\Debug\LayerAdding.dll
+C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson3\LayerAdding\LayerAdding\bin\Debug\LayerAdding.pdb
+C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson3\LayerAdding\LayerAdding\obj\Debug\LayerAdding.csprojResolveAssemblyReference.cache
+C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson3\LayerAdding\LayerAdding\obj\Debug\LayerAdding.dll
+C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson3\LayerAdding\LayerAdding\obj\Debug\LayerAdding.pdb
+C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson3\LayerAdding\LayerAdding\bin\Debug\LayerAdding.esriAddIn

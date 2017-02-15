@@ -1,0 +1,36 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>LayerAdding</Name>
+  <AddInID>{5b1b92fe-b1f8-48a0-bad5-aeb61bc291cf}</AddInID>
+  <Description>Type in a description for this Add-in.</Description>
+  <Version>1.0</Version>
+  <Image>Images\LayerAdding_1.png</Image>
+  <Author>jcarpenter</Author>
+  <Company>James Carpenter</Company>
+  <Date>2/14/2017</Date>
+  <Targets>
+    <Target name="Desktop" version="10.4" />
+  </Targets>
+  <AddIn language="CLR" library="LayerAdding.dll" namespace="LayerAdding">
+    <ArcMap>
+      <Commands>
+        <Tool id="James_Carpenter_LayerAdding_LayerAdding" class="AddOrtho" message="Add Ortho" caption="Add Ortho" tip="Add Ortho" category="GEOG489_Lesson3_JLC" image="Images\AddOrtho.png" onDemand="false" />
+        <Tool id="James_Carpenter_LayerAdding_AddStreet" class="AddStreet" message="Add Street" caption="Add Street" tip="Add Street" category="GEOG489_Lesson3_JLC" image="Images\AddStreet.png" onDemand="false" />
+      </Commands>
+      <Menus>
+        <Menu id="James_Carpenter_LayerAdding_Add_Menu" caption="Add Menu" isRootMenu="false">
+          <Items>
+            <Button refID="James_Carpenter_LayerAdding_LayerAdding"/>
+            <Button refID="James_Carpenter_LayerAdding_AddStreet"/>
+          </Items>
+        </Menu>
+      </Menus>
+      <Toolbars>
+        <Toolbar id="James_Carpenter_LayerAdding_Add" caption="Add" showInitially="true">
+          <Items>
+            <Menu refID="James_Carpenter_LayerAdding_Add_Menu" />
+          </Items>
+        </Toolbar>
+      </Toolbars>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
