@@ -1,8 +1,0 @@
-C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson4\SiteSelection\SiteSelection\bin\Debug\SiteSelection.dll
-C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson4\SiteSelection\SiteSelection\bin\Debug\SiteSelection.pdb
-C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson4\SiteSelection\SiteSelection\obj\Debug\SiteSelection.csprojResolveAssemblyReference.cache
-C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson4\SiteSelection\SiteSelection\obj\Debug\SiteSelection.dll
-C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson4\SiteSelection\SiteSelection\obj\Debug\SiteSelection.pdb
-C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson4\SiteSelection\SiteSelection\obj\Debug\SiteSelection.Form1.resources
-C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson4\SiteSelection\SiteSelection\obj\Debug\SiteSelection.csproj.GenerateResource.Cache
-C:\Users\jcarpenter\Documents\PennState\Geog489\Lesson4\SiteSelection\SiteSelection\bin\Debug\SiteSelection.esriAddIn
