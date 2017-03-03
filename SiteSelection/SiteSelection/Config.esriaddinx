@@ -1,0 +1,20 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>SiteSelection</Name>
+  <AddInID>{a143c62c-cc39-4054-af79-25d2fb1e65e8}</AddInID>
+  <Description>Type in a description for this Add-in.</Description>
+  <Version>1.0</Version>
+  <Image>Images\SiteSelection_1.png</Image>
+  <Author>jcarpenter</Author>
+  <Company>James Carpenter</Company>
+  <Date>2/26/2017</Date>
+  <Targets>
+    <Target name="Desktop" version="10.4" />
+  </Targets>
+  <AddIn language="CLR" library="SiteSelection.dll" namespace="SiteSelection">
+    <ArcMap>
+      <Commands>
+        <Button id="James_Carpenter_SiteSelection_SiteSelection" class="SiteSelection" message="Select Site" caption="Site Selection" tip="Site Selection" category="GEOG489_Lesson4_JLC" image="Images\SiteSelection.png" />
+      </Commands>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
