@@ -1,4 +1,4 @@
-## C#.NET Projects
+# C#.NET Projects
 
 These are projects from my GIS Application Development Masters class at Penn State.
 All the following projects are Esri Add-Ins and are written for 10.4.1.
