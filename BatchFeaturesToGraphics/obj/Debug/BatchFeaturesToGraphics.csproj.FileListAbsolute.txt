@@ -6,3 +6,11 @@ C:\Users\jcarpenter\Documents\PennState\Geog489\Final Project\BatchFeaturesToGra
 C:\Users\jcarpenter\Documents\PennState\Geog489\Final Project\BatchFeaturesToGraphics\BatchFeaturesToGraphics\bin\Debug\ESRI.ArcGIS.Carto.xml
 C:\Users\jcarpenter\Documents\PennState\Geog489\Final Project\BatchFeaturesToGraphics\BatchFeaturesToGraphics\obj\Debug\BatchFeaturesToGraphics.csprojResolveAssemblyReference.cache
 C:\Users\jcarpenter\Documents\PennState\Geog489\Final Project\BatchFeaturesToGraphics\BatchFeaturesToGraphics\bin\Debug\BatchFeaturesToGraphics.esriAddIn
+C:\Users\jcarpenter\Documents\GitHub\Applications\BatchFeaturesToGraphics\bin\Debug\BatchFeaturesToGraphics.dll
+C:\Users\jcarpenter\Documents\GitHub\Applications\BatchFeaturesToGraphics\bin\Debug\BatchFeaturesToGraphics.pdb
+C:\Users\jcarpenter\Documents\GitHub\Applications\BatchFeaturesToGraphics\bin\Debug\ESRI.ArcGIS.Carto.dll
+C:\Users\jcarpenter\Documents\GitHub\Applications\BatchFeaturesToGraphics\bin\Debug\ESRI.ArcGIS.Carto.xml
+C:\Users\jcarpenter\Documents\GitHub\Applications\BatchFeaturesToGraphics\obj\Debug\BatchFeaturesToGraphics.csprojResolveAssemblyReference.cache
+C:\Users\jcarpenter\Documents\GitHub\Applications\BatchFeaturesToGraphics\obj\Debug\BatchFeaturesToGraphics.dll
+C:\Users\jcarpenter\Documents\GitHub\Applications\BatchFeaturesToGraphics\obj\Debug\BatchFeaturesToGraphics.pdb
+C:\Users\jcarpenter\Documents\GitHub\Applications\BatchFeaturesToGraphics\bin\Debug\BatchFeaturesToGraphics.esriAddIn
